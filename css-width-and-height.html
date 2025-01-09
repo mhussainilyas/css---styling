@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Width and Height</title>
+    <style>
+      * {
+        text-align: center;
+      }
+
+      .box {
+        background-color: blue;
+        border-radius: 10px;
+        margin: 0 auto;
+
+        /* Width and Height: */
+        width: 400px;
+        /* width: 100%; */
+        /* width: 100vw; */ /* viewport width */
+        height: 300px;
+        /* height: 100vh; */ /* viewport height */
+
+        /* Important Notes: */
+        /* 1. Display Property: */
+        /* The element's display property affects how height and width are applied. For example, inline elements (like <span>) won't respect these properties unless you change their display type (e.g., to block or inline-block). */
+        /* 2. Box Sizing: */
+        /* Remember, the total size of an element also includes padding, borders, and margins, unless you use box-sizing: border-box; */
+      }
+
+      .box-inner {
+        width: auto; /* 100% of the parent element */
+        height: 100%; /* 100% of the parent element */
+        background-color: red;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Width and Height</h1>
+    <div class="box">
+      <div class="box-inner"></div>
+    </div>
+  </body>
+</html>
