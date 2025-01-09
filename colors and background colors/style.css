@@ -1,0 +1,58 @@
+/* 
+=====================
+    CSS Colors 
+===================== 
+*/
+body {  
+    color: red; /* Named color */  
+}  
+
+span {
+    color: #008080; /* Hex color */
+}
+
+h1 {  
+    color: rgb(255, 165, 0); /* RGB color */  
+}  
+
+p {  
+    color: rgba(0, 0, 0, 0.5); /* RGBA color */  
+}  
+
+a {  
+    color: hsl(240, 100%, 50%); /* HSL color */  
+}  
+
+div {  
+    color: hsla(120, 100%, 50%, 0.3); /* HSLA color */  
+}
+
+/* 
+=========================
+    Background Colors 
+=========================
+*/
+
+body {  
+    background-color: pink; /* Named color */  
+}  
+
+span {
+    background-color: skyblue; /* Hex color */
+}
+
+h1 {  
+    background-color: rgb(123, 104, 238); /* RGB color */  
+}  
+
+p {  
+    background-color: rgba(152, 251, 152, 0.5); /* RGBA color */  
+}  
+
+a {  
+    background-color: hsl(0, 100%, 25%); /* HSL color */  
+}  
+
+div {  
+    background-color: hsla(222, 100%, 50%, 0.1); /* HSLA color */  
+}
