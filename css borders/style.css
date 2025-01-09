@@ -1,0 +1,90 @@
+* {
+  text-align: center;
+}
+p {
+  padding: 50px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+/*
+========================
+    CSS Borders 
+========================
+*/
+
+/* .border {  */
+/* border-width: 5px; */
+/* border-style: solid; */
+/* border-color: red; */
+/* border: 30px outset blue; (shorthand) */
+/* } */
+
+/* ------- border-styles -------- */
+
+/* none (default) */
+/* solid */
+/* dotted */
+/* dashed */
+/* double */
+/* groove */
+/* ridge */
+/* inset */
+/* outset */
+
+/* ------- border-sides     -------- */
+
+/* border-top: 5px solid red; */
+/* border-bottom: 5px solid red; */
+/* border-left: 5px solid red; */
+/* border-right: 5px solid red; */
+
+/*
+=========================
+    CSS border-radius 
+=========================
+*/
+
+/* border-top-left-radius: 5px; */
+/* border-top-right-radius: 5px; */
+/* border-bottom-left-radius: 5px; */
+/* border-bottom-right-radius: 5px; */
+/* border-radius: 5px; (shorthand) */
+/* border-radius: 5px 10px; (shorthand) */
+/* border-radius: 5px 10px 15px 20px; (shorthand) */
+
+/* .border { */
+/* border: 10px groove blue; */
+/* border-radius: 10px; */
+/* border-radius: 10px 50px; */
+/* border-radius: 50%; (circle) */
+/* } */
+
+/*
+=========================
+    CSS border-image 
+=========================
+*/
+
+/* border-image-source: url(image.jpg); */
+/* border-image-slice: 30; */
+/* border-image-width: 5px; */
+/* border-image-outset: 10px; */
+/* border-image-repeat: round; */
+/* border-image: url(image.jpg) 30 5px 10px round; (shorthand) */
+
+.border {
+  border: 30px solid red;
+
+  /* ============ Linear Gradient =========== */
+  /* border-image: linear-gradient(to right, red, yellow, blue) 30; */
+
+  /* ============ Border Image =========== */
+  border-image-slice: 1014 942 1014 942;
+  border-image-width: 110px 90px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: stretch stretch;
+  border-image-source: url("../images/border-image.png");
+  border-style: solid;
+}
