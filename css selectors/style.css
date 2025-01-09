@@ -1,0 +1,65 @@
+/* 
+=======================
+    Basic Selectors 
+======================= 
+*/
+
+/* ------- Universal Selector ------ */
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* ------- Element(Tag) Selector ------ */
+h1 {
+    color: red;
+}
+
+/* ------- ID Selector ------ */
+#paragraph {
+    color: skyblue;
+}
+
+/* ------- Class Selector ------ */
+.heading {
+    background-color: yellow;
+}
+
+/* ------- Attribute Selector ------ */
+[href="#"] {
+    color: red;
+    text-decoration: none;
+}
+
+/* ------- Grouping Selector ------ */
+/* h1, p, a {
+    font-size: 20px;
+} */
+
+/* 
+==========================
+    Advanced Selectors 
+========================== 
+*/
+
+/* ------- Descendant Selector ------ */
+div p {
+    color: blue;
+}
+
+/* ------- Child Selector ------ */
+#child > p {
+    color: red;
+}
+
+/* ------- Adjacent Sibling Selector ------ */
+#child + span {
+    color: violet;
+}
+
+/* ------- General Sibling Selector ------ */
+#child ~ p {
+    color: green;
+}
+
