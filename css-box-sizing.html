@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Sizing In CSS</title>
+    <style>
+      * {
+        text-align: center;
+      }
+
+      .box {
+        box-sizing: border-box;
+        border: 5px solid red;
+        width: 50%;
+        margin: 0 auto;
+        padding: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Box Sizing</h1>
+    <div class="box">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit
+        nostrum voluptates quae ut omnis, accusantium nemo sapiente debitis
+        consequatur dolorem vero neque doloribus beatae, rerum vel? Eos facilis
+        fugiat deserunt ratione minus voluptatem illo debitis ipsam sunt
+        impedit? Tempora incidunt odit pariatur quod exercitationem aliquam,
+        reiciendis cumque tenetur et nemo.
+      </p>
+    </div>
+  </body>
+</html>
+
+<!-- 
+two main box-sizing values:
+
+1: content-box (default):
+Total width = width + padding + border
+
+2: border-box (modern approach):
+Total width = specified width (padding and border included)
+-->
