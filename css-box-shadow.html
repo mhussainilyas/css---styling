@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Box Shadow</title>
+    <style>
+        * {
+            text-align: center;
+        }
+
+        .box {
+            width: 300px;
+            height: 200px;
+            margin: auto;
+            background-color: pink;
+            border: 3px solid red;
+            border-radius: 10px;
+
+            /* Single box shadow */
+            /* box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0.5); */
+
+            /* Multiple box shadow */
+            /* box-shadow: 6px 6px 10px red, 12px 12px 10px yellow, 18px 18px 10px blue; */
+
+            /* Inside box shadow */
+            box-shadow: inset 6px 6px 10px rgba(255, 0, 0, 0.6);
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS box-shadow</h1>
+    <div class="box"></div>
+</body>
+</html>
+
+<!-- 
+=== Syntax ===
+box-shadow: x-axis y-axis blur spread color;
+-->
