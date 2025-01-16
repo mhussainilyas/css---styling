@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Text Overflow</title>
+    <style>
+        * {
+            text-align: center;
+        }
+        .box {
+            width: 40%;
+            margin: auto;
+            border: 4px solid blue;
+            box-sizing: border-box;
+            white-space: nowrap;
+            padding: 10px;
+            overflow: hidden;
+
+            /* text-overflow */
+            text-overflow: ellipsis;
+            /* text-overflow: "[...]"; only work in firefox */
+        }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Text Overflow</h1>
+    <div class="box">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, eaque
+      fugit. Velit harum quis obcaecati maiores temporibus incidunt facilis nam
+      porro, distinctio, et, ad libero! Odio, modi laudantium iste voluptate
+      ducimus molestiae doloremque excepturi neque officia quae quisquam
+      consequuntur totam asperiores sunt non. Accusantium cupiditate sequi autem
+      voluptates numquam architecto assumenda aliquid nobis cumque labore.
+      Quisquam pariatur ullam tempora atque!
+    </div>
+  </body>
+</html>
+
+<!-- 
+property
+text-overflow: ;
+
+value
+1) clip (default)
+2) ellipses 
+3) string
+-->
