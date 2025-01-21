@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Column Properties</title>
+    <style>
+      * {
+        text-align: center;
+      }
+
+      .para {
+        width: 70%;
+        margin: auto;
+        border: 5px solid blue;
+        padding: 40px;
+        font-size: 17px;
+        text-align: justify;
+
+        /* column properties */
+        column-count: 3;
+        column-width: 200px; /* over-write column-count: ; property */
+        column-gap: 50px;
+        column-rule: 5px solid red;
+      }
+
+      .para h2 {
+        text-transform: capitalize;
+        column-span: all;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Column Properties</h1>
+    <div class="para">
+      <h2>An important news paper artical about the current affairs</h2>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+      eveniet minus laudantium dicta quibusdam magni sed recusandae adipisci
+      debitis, necessitatibus dolores amet officiis voluptatibus minima, facilis
+      aspernatur iste, non eaque dolorem eius maiores at eligendi distinctio.
+      Sit, delectus aperiam. Perferendis, animi tenetur. Vero officiis odio
+      accusamus vitae praesentium quod hic quae tempore, facere rem voluptate
+      porro pariatur illo a dolorem atque soluta veritatis aut dolore? Fugit
+      fugiat officiis saepe soluta enim vitae repellat assumenda, dolor sunt
+      deserunt molestiae blanditiis, vel incidunt eum, provident architecto
+      placeat inventore maiores dolorem? Nostrum suscipit optio molestias
+      voluptatem cumque similique mollitia quibusdam saepe totam tempore! Lorem
+      ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eveniet
+      minus laudantium dicta quibusdam magni sed recusandae adipisci debitis,
+      necessitatibus dolores amet officiis voluptatibus minima, facilis
+      aspernatur iste, non eaque dolorem eius maiores at eligendi distinctio.
+      Sit, delectus aperiam. Perferendis, animi tenetur. Vero officiis odio
+      accusamus vitae praesentium quod hic quae tempore, facere rem voluptate
+      porro pariatur illo a dolorem atque soluta veritatis aut dolore? Fugit
+      fugiat officiis saepe soluta enim vitae repellat assumenda, dolor sunt
+      deserunt molestiae blanditiis, vel incidunt eum, provident architecto
+      placeat inventore maiores dolorem? Nostrum suscipit optio molestias
+      voluptatem cumque similique mollitia quibusdam saepe totam tempore!
+    </div>
+  </body>
+</html>
+
+<!-- 
+properties
+1) column-count: ;
+2) column-gap: ;
+4) column-rule-width: ;
+5) column-rule-style: ;
+6) column-rule-color: ;
+3) column-rule: width style color;
+7) column-width: ;
+8) column-fill: ;
+9) column-span: ;
+10) column: ;
+-->
