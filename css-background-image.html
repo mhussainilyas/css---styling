@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Background Image</title>
+    <style>
+      * {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-image: url(images/para-3.jpg), url(images/border-image.png);
+        background-repeat: repeat-y, repeat-y;
+        background-position: right top, left top;
+        background-size: contain;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Background Image</h1>
+    <div class="para">
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ullam iusto debitis enim beatae similique, nam inventore iste, totam sunt explicabo, quidem distinctio sed dignissimos aut nostrum molestias perspiciatis fugiat!
+    </div>
+  </body>
+</html>
+
+<!-- 
+properties
+1) background-image: ;
+2) background-repeat: ;
+3) background-position: ;
+4) background: color image repeat position;
+
+=== background-repeat: ; (values) ===
+1) repeat
+2) no-repeat
+3) repeat-x
+4) repeat-y
+5) space
+6) round
+
+=== background-position: ; (values) ===
+1) left top
+2) left center
+3) left bottom
+4) right top
+5) right center
+6) right bottom
+7) center top
+8) center center
+9) center bottom
+10) x% y%
+11) x(px) y(px)
+-->
