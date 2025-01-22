@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Background Attachment</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      div {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ccc;
+        font-size: 40px;
+      }
+      .box1 {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+          url(images/para-1.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+      }
+      .box2 {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+          url(images/para-2.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+      }
+      .box3 {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+          url(images/para-3.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+      }
+      .box4 {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+          url(images/para-4.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1">
+      <h1>Muhammad Hussain</h1>
+    </div>
+    <div class="box2">
+      <h1>Muhammad Hussain</h1>
+    </div>
+    <div class="box3">
+      <h1>Muhammad Hussain</h1>
+    </div>
+    <div class="box4">
+      <h1>Muhammad Hussain</h1>
+    </div>
+  </body>
+</html>
+
+<!-- 
+property
+background-attachment: ;
+
+value
+1) fixed
+2) scroll
+-->
