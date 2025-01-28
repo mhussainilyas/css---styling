@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Gradients</title>
+    <style>
+      * {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .box {
+        width: 40%;
+        aspect-ratio: 2;
+        margin: auto;
+        padding: 30px;
+        border: 3px solid #000;
+
+        /* ============== background gradient ============ */
+
+        /* background: linear-gradient(to right, red, yellow); */
+        /* background: linear-gradient(to right bottom, red, yellow); */
+        /* background: linear-gradient(45deg, red, yellow); */
+        /* background: linear-gradient(to bottom, red, rgba(255, 0, 0, 0.1)); */
+        /* background: repeating-linear-gradient(
+          to bottom,
+          red 10%,
+          rgba(255, 0, 0, 0.1) 20%
+        ); */
+        /* background: radial-gradient(red, yellow 10%, blue 80%); */
+        /* background: radial-gradient(circle, red, yellow 10%, blue 80%); */
+        /* background: radial-gradient(closest-side at 80% 65%, red, yellow, blue); */
+        /* background: radial-gradient(closest-corner at 5% 7%, red, yellow, blue); */
+        /* background: radial-gradient(farthest-side at 100% 100%, red, yellow, blue); */
+        /* background: radial-gradient(farthest-corner at 100% 100%, red, yellow, blue); */
+        background: repeating-radial-gradient(circle, rgba(255, 0, 0, 1) 10%, rgba(255, 0, 0, 0.5) 20%, rgba(255, 0, 0, 0.1) 30%);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Gradients</h1>
+    <div class="box">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo deleniti
+      dolore maxime corrupti voluptatem earum quae explicabo nesciunt ullam
+      reiciendis libero, sapiente quod magnam quos! Cumque, ipsam in voluptate
+      minima quo dignissimos nam corrupti ipsum dolor at quibusdam omnis ex
+      aliquid mollitia deserunt reprehenderit non quos sint, ad beatae optio
+      voluptas repellendus. Quo voluptates autem praesentium quam aperiam,
+      veritatis maxime!
+    </div>
+  </body>
+</html>
+
+<!-- 
+Types of gradients
+1) linear-gradient(direction, color1, color2,..., colorN);
+2) radial-gradient(direction, color1, color2,..., colorN);
+3) repeating-linear-gradient()
+4) repeating-radial-gradient()
+-->
