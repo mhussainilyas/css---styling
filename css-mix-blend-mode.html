@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Mix Blend Mode</title>
+    <style>
+        * {
+            text-align: center;
+        }
+
+        .box {
+            width: 500px;
+            height: 400px;
+            margin: auto;
+            background: url(images/para-1.jpg) no-repeat center;
+            background-size: 100% 100%;
+            display: flex;
+            align-items: center;
+
+            h2 {
+                width: 100%;
+                background: red;
+                color: white;
+                padding: 10px;
+                font-size: 30px;
+                mix-blend-mode: screen;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Mix Blend Mode</h1>
+    <div class="box">
+        <h2>Muhammad Hussain</h2>
+    </div>
+</body>
+</html>
+
+<!-- 
+=== property ===
+mix-blend-mode: value;
+
+=== values ===
+1) normal
+2) multiply
+3) screen
+4) overlay
+5) darken
+6) lighten
+7) color-dodge
+8) color-burn
+9) hard-light
+10) soft-light
+11) difference
+12) exclusion
+13) hue
+14)saturation
+
+=== Note ===
+mix-blend-mode works with one background.
+-->
